@@ -1,24 +1,28 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace E_CommerceMedicalTools.Models
 {
     public class FeedbackForProduct
     {
-        public int Id { get; set; }
+        public int ID { get; set; }
 
         public string Text { get; set; }
 
-        public bool status { get; set; } = false;
+        public bool Status { get; set; } = false;
 
         public int Rating { get; set; }
 
-        [ForeignKey("userId")]
-        public int userId { get; set; }
+        [Required]
+        public int userID { get; set; }
 
-        [ForeignKey("productId")]
-        public int productId { get; set; }
+        [Required]
+        public int productID { get; set; }
 
+        [ForeignKey("productID")]
         public virtual Product Product{ get; set; }
+
+        [ForeignKey("userID")]
         public virtual User User { get; set; }
 
     }

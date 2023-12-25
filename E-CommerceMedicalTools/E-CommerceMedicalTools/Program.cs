@@ -1,7 +1,15 @@
+using E_CommerceMedicalTools.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+builder.Services.AddDbContext<ApplicationContext>(option =>
+option.UseSqlServer(connectionString));
+
 
 var app = builder.Build();
 

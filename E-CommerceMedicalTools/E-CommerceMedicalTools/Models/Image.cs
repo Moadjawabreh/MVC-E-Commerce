@@ -5,13 +5,13 @@ namespace E_CommerceMedicalTools.Models
 {
     public class Image
     {
-        public int Id { get; set; }
+        public int ID { get; set; }
 
         [Required]
         public string UrlImage { get; set; }
 
-        [ForeignKey("productId")]
-        public int productId { get; set; }
+        [ForeignKey("productID")]
+        public int productID { get; set; }
         public virtual Product Product { get; set; }
     }
 }
