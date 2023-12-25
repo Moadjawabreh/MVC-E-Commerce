@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\E-CommerceMedicalTools",
-    "\\E-CommerceMedicalTools\\E-CommerceMedicalTools"
+    "\\E-CommerceMedicalTools\\E-CommerceMedicalTools",
+    "\\E-CommerceMedicalTools\\E-CommerceMedicalTools\\Models"
   ],
-  "SelectedNode": "\\E-CommerceMedicalTools\\E-CommerceMedicalTools",
+  "SelectedNode": "\\E-CommerceMedicalTools\\E-CommerceMedicalTools\\appsettings.Development.json",
   "PreviewInSolutionExplorer": false
 }

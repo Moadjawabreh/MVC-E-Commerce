@@ -4,7 +4,7 @@ namespace E_CommerceMedicalTools.Models
 {
     public class Category
     {
-        public int Id { get; set; }
+        public int ID { get; set; }
 
         [Required]
         public string Name { get; set; }
@@ -12,6 +12,6 @@ namespace E_CommerceMedicalTools.Models
         [Required]
         public string Image { get; set; }
 
-        public ICollection<Product> products { get; set; }
+        public ICollection<Product> Products { get; set; }
     }
 }

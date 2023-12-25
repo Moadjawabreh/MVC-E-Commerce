@@ -12,9 +12,9 @@ namespace E_CommerceMedicalTools.Models
     {
         public User()
         {
-            this.products = new HashSet<Product>();
+            this.Products = new HashSet<Product>();
         }
-        public int Id { get; set; }
+        public int ID { get; set; }
 
         [Required]
         public string Name { get; set; }
@@ -31,6 +31,11 @@ namespace E_CommerceMedicalTools.Models
         [Required]
         public Role Role { get; set; }
 
-        public ICollection<Product> products { get; set; }
+        public ICollection<Product> Products { get; set; }
+
+        public ICollection<FeedbackForProduct> FeedbackForProducts { get; set; }
+
+        public ICollection<FeedbackForWeb> FeedbackForWebs { get; set; }
+
     }
 }
