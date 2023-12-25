@@ -7700,24 +7700,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\OrangeTasks\\E-Commerce\\MVC-E-Commerce\\E-CommerceMedicalTools\\E-CommerceMedicalTools\\E-CommerceMedicalTools.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\MVC-E-Commerce\\E-CommerceMedicalTools\\E-CommerceMedicalTools\\E-CommerceMedicalTools.csproj",
       "projectName": "E-CommerceMedicalTools",
-      "projectPath": "G:\\OrangeTasks\\E-Commerce\\MVC-E-Commerce\\E-CommerceMedicalTools\\E-CommerceMedicalTools\\E-CommerceMedicalTools.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "G:\\OrangeTasks\\E-Commerce\\MVC-E-Commerce\\E-CommerceMedicalTools\\E-CommerceMedicalTools\\obj\\",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\MVC-E-Commerce\\E-CommerceMedicalTools\\E-CommerceMedicalTools\\E-CommerceMedicalTools.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\MVC-E-Commerce\\E-CommerceMedicalTools\\E-CommerceMedicalTools\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7725,7 +7720,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
